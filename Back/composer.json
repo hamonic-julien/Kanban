@@ -1,0 +1,20 @@
+{
+    "name": "julien/okanban-api",
+    "description": "La partie backend API du projet oKanban",
+    "type": "project",
+    "authors": [
+        {
+            "name": "hamonic-julien",
+            "email": "hamonic.julien@laposte.net"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "altorouter/altorouter": "^1.2",
+        "symfony/var-dumper": "^3.4",
+        "benoclock/alto-dispatcher": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {"oKanban\\": "app/"}
+    }
+}
